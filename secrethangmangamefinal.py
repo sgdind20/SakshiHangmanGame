@@ -33,3 +33,15 @@ def tester():
     else:
         print "no"  
 '''
+
+
+def test(): 
+    global letter
+    letter=int(input("What is letter :"))
+    if letter in secret:
+        pos=secret.find(letter)
+        updateWord[pos]= letter
+        ifWon()
+        
+    else:
+        getLetter()
