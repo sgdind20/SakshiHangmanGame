@@ -34,7 +34,6 @@ def tester():
         print "no"  
 '''
 
-
 def test(): 
     global letter
     letter=int(input("What is letter :"))
